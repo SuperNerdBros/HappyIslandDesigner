@@ -63,13 +63,13 @@ export function showNuxTooltip(options: NuxTooltipOptions): paper.Group | null {
   // Create text items to measure content size
   const mainText = new PointText(new Point(0, 0));
   mainText.content = text;
-  mainText.fontFamily = 'TTNorms, sans-serif';
+  mainText.fontFamily = 'Varela Round, sans-serif';
   mainText.fontSize = 13;
   mainText.fillColor = colors.white.color;
 
   const dismissText = new PointText(new Point(0, 0));
   dismissText.content = 'tap to dismiss';
-  dismissText.fontFamily = 'TTNorms, sans-serif';
+  dismissText.fontFamily = 'Varela Round, sans-serif';
   dismissText.fontSize = 10;
   dismissText.fillColor = colors.secondaryText.color;
 

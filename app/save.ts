@@ -136,7 +136,7 @@ function showSaveTutorial(): Promise<void> {
       minWidth: '300px',
       width: '80vw',
       boxShadow: '0 8px 32px rgba(0,0,0,0.25)',
-      fontFamily: 'TTNorms, sans-serif',
+      fontFamily: 'Varela Round, sans-serif',
       textAlign: 'center',
     });
 
@@ -186,7 +186,7 @@ function showSaveTutorial(): Promise<void> {
       padding: '8px 32px',
       fontSize: '15px',
       fontWeight: '700',
-      fontFamily: 'TTNorms, sans-serif',
+      fontFamily: 'Varela Round, sans-serif',
       cursor: 'pointer',
     });
 
@@ -259,7 +259,7 @@ export function saveMapToFile() {
   );
   text.justification = 'right';
   text.content = 'made at eugeneration.github.io/HappyIslandDesigner';
-  text.fontFamily = 'TTNorms, sans-serif';
+  text.fontFamily = 'Varela Round, sans-serif';
   text.fillColor = colors.oceanDark.color;
   text.strokeWidth = 0;
   text.fontSize = 2;
@@ -272,7 +272,7 @@ export function saveMapToFile() {
     );
     v2Text.justification = 'left';
     v2Text.content = 'v2';
-    v2Text.fontFamily = 'TTNorms, sans-serif';
+    v2Text.fontFamily = 'Varela Round, sans-serif';
     v2Text.fillColor = colors.oceanDark.color;
     v2Text.strokeWidth = 0;
     v2Text.fontSize = 2;

@@ -25,8 +25,8 @@ export default {
     0, 4, 8, 16, 32, 64, 128, 256
   ],
   fonts: {
-    body: '"Quicksand", "TTNorms", sans-serif',
-    heading: '"TTNorms", sans-serif',
+    body: '"Varela Round", "Varela Round", sans-serif',
+    heading: '"Varela Round", sans-serif',
     monospace: 'monospace'
   },
   fontWeights: {

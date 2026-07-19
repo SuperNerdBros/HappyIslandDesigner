@@ -400,7 +400,7 @@ function createDropdownButton(label: string, onClick: () => void, isCancel = fal
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-family: TTNorms, sans-serif;
+    font-family: Varela Round, sans-serif;
     font-size: 14px;
     color: #726a5a;
     transition: background 0.2s;
@@ -428,7 +428,7 @@ function createDropdownContainer(screenX: number, screenY: number, title: string
     border-radius: 8px;
     padding: 8px;
     z-index: 10000;
-    font-family: TTNorms, sans-serif;
+    font-family: Varela Round, sans-serif;
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
   `;
 
@@ -1331,7 +1331,7 @@ function showTileTracerButtons(): void {
     border-radius: 8px;
     padding: 8px;
     z-index: 10000;
-    font-family: TTNorms, sans-serif;
+    font-family: Varela Round, sans-serif;
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
   `;
 
@@ -1447,7 +1447,7 @@ function showLayoutNavigatorButtons(): void {
     border-radius: 8px;
     padding: 8px;
     z-index: 10000;
-    font-family: TTNorms, sans-serif;
+    font-family: Varela Round, sans-serif;
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
   `;
 
@@ -1556,7 +1556,7 @@ function showBaseMapNavigatorButtons(): void {
     border-radius: 8px;
     padding: 8px;
     z-index: 10000;
-    font-family: TTNorms, sans-serif;
+    font-family: Varela Round, sans-serif;
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
   `;
 
@@ -3533,7 +3533,7 @@ function showDevMenu(): void {
       point: new paper.Point(menuPadding + 4, itemY + menuItemHeight / 2 + 4),
       content: item.label,
       fillColor: colors.text.color,
-      fontFamily: 'TTNorms, sans-serif',
+      fontFamily: 'Varela Round, sans-serif',
       fontSize: 12,
     });
 

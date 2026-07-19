@@ -229,7 +229,7 @@ function createOptionCard(
   } else {
     const label = new paper.PointText(new paper.Point(0, 1));
     label.justification = 'center';
-    label.fontFamily = 'TTNorms, sans-serif';
+    label.fontFamily = 'Varela Round, sans-serif';
     label.fontSize = buttonSize * 0.35;
     label.fillColor = colors.text.color;
     label.content = option.label;

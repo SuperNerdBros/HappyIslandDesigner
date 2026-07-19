@@ -10,7 +10,7 @@ function createElement() {
   img.id = "bob";
 
   const p = document.createElement("p");
-  p.style.fontFamily = "TTNorms";
+  p.style.fontFamily = "Varela Round";
   p.style.color = "#726a5a";
   p.textContent = "Please wait a bit...";
 

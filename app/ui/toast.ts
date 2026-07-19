@@ -10,7 +10,7 @@ export function showToast(message: string, duration = 3000): void {
     color: '#fff',
     padding: '10px 24px',
     borderRadius: '20px',
-    fontFamily: 'TTNorms, sans-serif',
+    fontFamily: 'Varela Round, sans-serif',
     fontSize: '15px',
     fontWeight: '700',
     boxShadow: '0 4px 12px rgba(0,0,0,0.2)',

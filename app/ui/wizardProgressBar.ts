@@ -181,7 +181,7 @@ export function showWizardProgress(): void {
   const skipText = new paper.PointText(new paper.Point(viewWidth - 16, TOP_Y + 4));
   skipText.content = i18next.t('wizard_skip');
   skipText.justification = 'right';
-  skipText.fontFamily = 'TTNorms, sans-serif';
+  skipText.fontFamily = 'Varela Round, sans-serif';
   skipText.fontSize = 12;
   skipText.fillColor = colors.text.color;
 

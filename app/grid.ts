@@ -100,7 +100,7 @@ export function createGrid() {
       )
     );
     gridLabel.justification = 'center';
-    gridLabel.fontFamily = 'TTNorms, sans-serif';
+    gridLabel.fontFamily = 'Varela Round, sans-serif';
     gridLabel.fontSize = 3;
     gridLabel.fillColor = colors.oceanText.color;
     gridLabel.content = (1 + i).toString();
@@ -115,7 +115,7 @@ export function createGrid() {
       )
     );
     gridLabel.justification = 'center';
-    gridLabel.fontFamily = 'TTNorms, sans-serif';
+    gridLabel.fontFamily = 'Varela Round, sans-serif';
     gridLabel.fontSize = 3;
     gridLabel.fillColor = colors.oceanText.color;
     gridLabel.content = String.fromCharCode(65 + i); // A = 65

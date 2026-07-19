@@ -87,7 +87,7 @@ module.exports = (env, argv) => {
       new webpack.DefinePlugin({
         __DEV__: isDev,
       }),
-      new ForkTsCheckerWebpackPlugin({
+      isDev && new ForkTsCheckerWebpackPlugin({
         typescript: {
           diagnosticOptions: {
             semantic: true,
@@ -95,7 +95,7 @@ module.exports = (env, argv) => {
           },
         },
       }),
-      new ESLintPlugin({
+      isDev && new ESLintPlugin({
         extensions: ['js', 'jsx', 'ts', 'tsx'],
       }),
       new HtmlWebpackPlugin({
@@ -114,7 +114,7 @@ module.exports = (env, argv) => {
       new webpack.IgnorePlugin({
         resourceRegExp: /^acorn$/,
       }),
-    ],
+    ].filter(Boolean),
     optimization: {
       splitChunks: {
         cacheGroups: {

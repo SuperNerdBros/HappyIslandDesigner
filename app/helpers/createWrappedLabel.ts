@@ -1,7 +1,7 @@
 import paper from 'paper';
 import { colors } from '../colors';
 
-const FONT_FAMILY = 'TTNorms, sans-serif';
+const FONT_FAMILY = 'Varela Round, sans-serif';
 const TITLE_FONT_SIZE = 16;
 const SUB_FONT_SIZE = 11;
 const LINE_HEIGHT = 18;

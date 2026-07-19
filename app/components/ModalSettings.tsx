@@ -110,7 +110,7 @@ function ModalSettings() {
                 <line x1="2" y1="12" x2="22" y2="12" stroke={colors.text.cssColor} strokeWidth="2" />
               </svg>
               <Text sx={{
-                fontFamily: 'Quicksand, sans-serif',
+                fontFamily: 'Varela Round, sans-serif',
                 color: colors.text.cssColor,
                 fontSize: '16px',
                 fontWeight: 'bold',
@@ -122,7 +122,7 @@ function ModalSettings() {
               defaultValue={currentLang}
               onChange={handleLanguageChange}
               style={{
-                fontFamily: 'Quicksand, sans-serif',
+                fontFamily: 'Varela Round, sans-serif',
                 fontSize: '14px',
                 padding: '6px 12px',
                 borderRadius: '8px',
@@ -144,7 +144,7 @@ function ModalSettings() {
           {showRestart && (
             <>
               <Text sx={{
-                fontFamily: 'Quicksand, sans-serif',
+                fontFamily: 'Varela Round, sans-serif',
                 color: '#1976D2',
                 fontWeight: 'bold',
                 fontSize: '13px',
@@ -154,7 +154,7 @@ function ModalSettings() {
               </Text>
               {TRANSLATION_DISCLAIMER[selectedLang] && (
                 <Text sx={{
-                  fontFamily: 'Quicksand, sans-serif',
+                  fontFamily: 'Varela Round, sans-serif',
                   color: colors.secondaryText.cssColor,
                   fontSize: '11px',
                   mt: 1,

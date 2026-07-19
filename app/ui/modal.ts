@@ -68,7 +68,7 @@ export function renderModal(
   text.justification = 'center';
   text.content = name;
   text.fontSize = 20;
-  text.fontFamily = 'TTNorms, sans-serif';
+  text.fontFamily = 'Varela Round, sans-serif';
   text.fillColor = colors.text.color;
   modalContents.addChild(text);
 
@@ -80,7 +80,7 @@ export function renderModal(
   const time = new PointText(new Point(group.data.width / 2, -90));
   time.justification = 'center';
   time.fontSize = 12;
-  time.fontFamily = 'TTNorms, sans-serif';
+  time.fontFamily = 'Varela Round, sans-serif';
   time.fillColor = colors.lightText.color;
   time.content = new Date().toLocaleTimeString([], {
     hour: '2-digit',

@@ -16,7 +16,7 @@ export function createIncrementComponents(onIncrement, onDecrement) {
   const decrement = incrementButton('static/img/ui-minus.png', onDecrement);
 
   const text = new PointText(new Point(0, 28));
-  text.fontFamily = 'TTNorms, sans-serif';
+  text.fontFamily = 'Varela Round, sans-serif';
   text.fontSize = 14;
   text.fillColor = colors.text.color;
   text.justification = 'center';

@@ -152,7 +152,7 @@ export function initObjectPanel() {
     point: new paper.Point(0, -5),
     justification: 'center',
     fontSize: 13,
-    fontFamily: 'TTNorms, sans-serif',
+    fontFamily: 'Varela Round, sans-serif',
     fontWeight: 'bold',
     fillColor: colors.text.color,
     content: '',

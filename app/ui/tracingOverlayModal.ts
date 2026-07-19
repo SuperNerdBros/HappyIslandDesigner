@@ -206,7 +206,7 @@ function renderTracingOverlayModal() {
 
       const instructions = new PointText(instructionImage.bounds.bottomCenter.add(new Point(0, 60)));
       instructions.justification = 'center';
-      instructions.fontFamily = 'TTNorms, sans-serif';
+      instructions.fontFamily = 'Varela Round, sans-serif';
       instructions.fontSize = isMobile ? 14 : 18;
       instructions.fillColor = colors.text.color;
       instructions.content = i18next.t('import_tracing_overlay_instructions');
@@ -586,7 +586,7 @@ function renderTracingOverlayModal() {
           // Show temporary status message above the image
           const statusText = new PointText(new Point(switchMenu.data.width / 2, 14));
           statusText.justification = 'center';
-          statusText.fontFamily = 'TTNorms, sans-serif';
+          statusText.fontFamily = 'Varela Round, sans-serif';
           statusText.fontSize = isMobile ? 12 : 14;
           statusText.fillColor = colors.text.color;
           statusText.content = i18next.t('import_tracing_overlay_auto_corners');
